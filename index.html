@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículum de Sancho Travascio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Sección inicial con la foto de fondo -->
+    <div class="intro">
+        <img src="./images/FOTOcompu.jpg" alt="Foto de fondo" class="background-photo">
+        <img src="./images/fotoperfil.JPG" alt="Sancho Travascio" class="profile-photo">
+    </div>
+
+    <!-- Contenedor principal -->
+    <div class="container">
+        <!-- Nombre y datos personales -->
+        <header>
+            <h1>Sancho Travascio</h1>
+            <p>Desarrollador Front-End | 20 años | La Plata, Argentina</p>
+        </header>
+
+        <!-- Perfil profesional -->
+        <section class="profile">
+            <h2>Perfil Profesional</h2>
+            <p>Soy un desarrollador front-end con sólidos conocimientos en HTML, CSS, y JavaScript, obtenidos en un curso de Coder House. Manejo herramientas como SCSS, Git, y GitHub, aplicando estos conocimientos en proyectos prácticos y desafiantes. Mi enfoque se centra en la creación de interfaces de usuario limpias, funcionales y estéticamente agradables.</p>
+        </section>
+
+        <!-- Educación -->
+        <section class="education">
+            <h2>Educación</h2>
+            <p>Estudiante de Licenciatura en Sistemas y Analista Programador Universitario en el segundo año.</p>
+            <p>Formación secundaria en la Escuela Agraria General Lucio Mansilla de Bavio.</p>
+        </section>
+
+        <!-- Habilidades -->
+        <section class="skills">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>HTML y CSS</li>
+                <li>JavaScript</li>
+                <li>SCSS</li>
+                <li>Git y GitHub</li>
+                <li>Trabajo en equipo y liderazgo</li>
+                <li>División de tareas y enfoque en resultados</li>
+            </ul>
+        </section>
+
+        <!-- Botones de Certificaciones -->
+        <section class="certifications">
+            <h2>Certificaciones</h2>
+            <button onclick="toggleImage('./images/certificadodesarrolloweb.png')">HTML y CSS</button>
+            <button onclick="toggleImage('./images/certificadodesarrolloweb.png')">JavaScript</button>
+            <div id="project-image"></div>
+        </section>
+
+        <!-- Botón con link a tu página web -->
+        <section class="website">
+            <h2>Mi Página Web</h2>
+            <a href="https://ssanchiss.github.io/pre-entrega3/" target="_blank" class="button">Visitar mi Página Web</a>
+        </section>
+
+        <!-- Conocimiento de inglés básico -->
+        <section class="language">
+            <h2>Conocimientos de Inglés</h2>
+            <button onclick="toggleImage('./images/fotoIngles.png')">Ver Foto</button>
+        </section>
+
+        <!-- Botones de contacto -->
+        <section class="contact">
+            <h2>Contacto</h2>
+            <a href="mailto:sanchotravascio@gmail.com"><img src="./images/email.png" alt="Mail"></a>
+            <a href="https://wa.me/+542223507254"><img src="./images/whatsapp.png" alt="WhatsApp"></a>
+            <a href="https://www.linkedin.com/in/sancho-travascio-825929214"><img src="./images/linkedin.png" alt="LinkedIn"></a>
+        </section>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
